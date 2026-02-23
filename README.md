@@ -43,6 +43,7 @@ Difficulté : Facile (~15 minutes)
 ---------------------------------------------------  
 Dans cette séquence, vous allez **modifier le code du fichier hello.html dans Github**, pour ensuite mettre à jour votre environnement Codespace et observer le résultat en ligne sur votre site Web.  
 
+
 **Etape 1 :** Dans Github, **modifier la ligne 6 du fichier hello.html** pour y ajouter votre nom et prénom. **Commitez** (bouton vert) pour enregistrer vos modifications dans Github.  
 
 **Etape 2 :** Depuis le terminal de votre Codespace, **stoppez votre serveur Web** via la **combinaison de touches Ctrl+c**. Cette combinaison de touches stop votre serveur.

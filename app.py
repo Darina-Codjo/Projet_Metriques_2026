@@ -9,16 +9,6 @@ def hello_world():
 
 # Déposez votre code à partir d'ici :
 
-
-
-
-
-
-# Ne rien mettre après ce commentaire
-    
-if __name__ == "__main__":
-  app.run(host="0.0.0.0", port=5000, debug=True)
-
 @app.route("/contact")
 def MaPremiereAPI():
     return "<h2>Ma page de contact</h2>"  
@@ -44,4 +34,11 @@ def api_paris():
 @app.route("/rapport")
 def mongraphique():
     return render_template("graphique.html")
+
+
+
+# Ne rien mettre après ce commentaire
+    
+if __name__ == "__main__":
+  app.run(host="0.0.0.0", port=5000, debug=True)
 
